@@ -57,3 +57,26 @@ article {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+/* Add custom styles for the article content */
+article h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+article p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.custom-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.custom-button:hover {
+    background-color: #45a049;
+}
