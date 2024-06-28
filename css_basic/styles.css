@@ -40,3 +40,20 @@ body {
         overflow-y: auto;
     }
 }
+/* Change the background color of the body */
+body {
+    background-color: #f4f4f4;
+}
+
+/* Change the font family and color of the headings */
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Add some padding and a border to the article elements */
+article {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
