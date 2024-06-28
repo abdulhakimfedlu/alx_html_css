@@ -20,3 +20,23 @@ body {
     flex: 1;
     overflow-y: auto;
 }
+/* Responsive styles for smartphone layout */
+@media (max-width: 767px) {
+    .works_on_smartphone body {
+        flex-direction: column;
+    }
+
+    .works_on_smartphone main {
+        flex-direction: column;
+    }
+
+    .works_on_smartphone article {
+        flex: 1;
+        overflow-y: auto;
+    }
+
+    .works_on_smartphone aside {
+        flex: 1;
+        overflow-y: auto;
+    }
+}
