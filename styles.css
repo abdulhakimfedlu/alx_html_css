@@ -145,3 +145,87 @@ body {
   font-size: 22px;
 }
 
+.popular-tutorials {
+  background-color: #fff;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.popular-tutorials h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.popular-tutorials h2 span {
+  color: #6b46c1;
+  font-weight: 600;
+}
+
+.contaier {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.tutorials {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2px;
+}
+
+.tutorial-card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 23%;
+}
+
+.tutorial-card img {
+  width: 100%;
+  height: auto;
+}
+
+.tutorial-card .content {
+  padding: 20px;
+}
+
+.tutorial-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.tutorial-card p {
+  color: #718096;
+  margin: 10px 0;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.author img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.author p {
+  margin-left: 10px;
+  font-size: 0.875rem;
+  color: #4a5568;
+}
+
+.rating-duration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 0.875rem;
+  color: #6b46c1;
+}
+
+.rating .fas {
+  margin-right: 2px;
+}
