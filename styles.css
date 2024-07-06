@@ -229,3 +229,64 @@ body {
 .rating .fas {
   margin-right: 2px;
 }
+.continer {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.membership {
+  background-color: #1e2330;
+  color: white;
+  padding: 50px 0;
+}
+
+.membership h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.highlight {
+  color: #a065e2;
+}
+
+.membership-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.benefit {
+  background-color: #1e2330;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: center;
+}
+
+.icon {
+  font-size: 2em;
+  color: #a065e2;
+}
+
+.benefit h3 {
+  margin: 10px 0;
+}
+
+.benefit p {
+  font-size: 0.9em;
+  color: #b0b3b8;
+}
+
+.btn {
+  background-color: #a065e2;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
