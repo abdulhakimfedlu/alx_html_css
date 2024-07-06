@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background:url(Object.png);
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    color: #eee;
+  }
+  
+  .title {
+    font-size: 4em;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #eee;
+  }
+  
+  .button {
+    color: white;
+    padding: 10px 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .logo img {
+    max-height: 200px;
+  }
+  .button:hover {
+    background-color: #eee;
+  }
+  .logo {
+    display: space-between;
+    align-items: center;
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 80%;
+    color: white;
+    span {
+        color: purple;
+      }
+  }
+  
+  .section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+
+  
+  .card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    margin-bottom: 10px;
+  }
+  .nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+  }
+
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+
+  .nav a:hover {
+    color: #ccc;
+  }
+  .nav li {
+    display: inline-block;
+  }
+.buttoner {
+    color: white;
+    padding: 10px 10px;
+    margin: 0 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: purple;
+}
