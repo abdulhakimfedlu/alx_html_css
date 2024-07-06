@@ -118,8 +118,6 @@ body {
     text-decoration: none;
     background-color: purple;
 }
-
-
 .containerr {
   display: flex;
   align-items: center;
@@ -146,3 +144,4 @@ body {
 .testimonial strong {
   font-size: 22px;
 }
+
