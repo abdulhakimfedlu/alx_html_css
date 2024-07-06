@@ -43,8 +43,12 @@ body {
     background-color: #eee;
   }
   .logo {
-    display: space-between;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    top: 3%;
+    left: 0%;
+  position: fixed;
   }
   
   .section {
